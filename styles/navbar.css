@@ -1,0 +1,24 @@
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar a {
+    padding: 5px;
+    text-decoration: none;
+    color: var(--tetriary);
+    border-bottom: 2px solid transparent;
+}
+
+.navbar a:visited {
+    color: var(--tetriary)
+}
+
+.navbar a:hover {
+    color: var(--secondary)
+}
+
+.navbar ul li a.active {
+    border-bottom: 2px solid var(--secondary);
+}

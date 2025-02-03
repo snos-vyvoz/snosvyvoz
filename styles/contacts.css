@@ -1,0 +1,80 @@
+.contacts {
+    padding: 50px 300px 0;
+    background-color: var(--primary);
+}
+
+.contacts h1 {
+    font-size: 48px;
+    color: var(--tetriary);
+}
+
+.contacts p {
+    font-size: 18px;
+    color: var(--tetriary);
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+
+.contacts a {
+    color: var(--tetriary);
+}
+
+.contacts a:visited {
+    color: var(--tetriary);
+}
+
+.contacts__section {
+    position: relative;
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contacts__call {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+    width: 200px;
+    border: none;
+
+    background-color: var(--secondary);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contacts__call h2 {
+    font-size: 18px;
+    color: var(--primary);
+    margin: 0;
+}
+
+.contacts__call:active {
+    background-color: var(--secondary-dark);
+}
+
+@media screen and (max-width: 1400px){
+    .contacts {
+        padding: 100px 200px 0;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .contacts {
+        padding: 100px 100px 0;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .contacts {
+        padding: 100px 20px 0;
+        height: 100%;
+    }
+
+    .contacts__section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}

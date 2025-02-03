@@ -1,0 +1,43 @@
+.info {
+    padding: 50px 300px 0;
+    background-color: var(--primary);
+}
+
+.info h1 {
+    font-size: 48px;
+    color: var(--tetriary);
+}
+
+.info__section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 1400px){
+    .info {
+        padding: 100px 200px 0;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .info {
+        padding: 100px 100px 0;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .info {
+        padding: 100px 20px 0;
+        height: 100%;
+    }
+
+    .info__section {
+        align-items: flex-start;
+        height: 100%;
+    }
+
+}

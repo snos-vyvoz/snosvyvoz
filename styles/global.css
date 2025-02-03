@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary: #10242F;
+    --secondary: #F39d4e;
+    --tetriary: #CECDD2;
+    --secondary-dark: #eb811f;
+}
